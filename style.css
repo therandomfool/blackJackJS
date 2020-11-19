@@ -31,7 +31,7 @@
 
   .bottom-card{
     font-size: 30px;
-    line-height: 20px;
+    line-height: 22.3px;
     right: 2px;
     bottom: 2px;
     transform: rotate(-180deg);
@@ -70,6 +70,4 @@ br {
   content: "";
   margin: 7px;
   display: block;
-  /* font-size: 20%; */
-  
 }
