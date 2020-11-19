@@ -2,6 +2,41 @@
     font-size: 1.5em;
   }
 
+  .icard {
+    height: 180px;
+    width: 130px;
+    padding: 3px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    display: inline-block;
+    font-family: 'Lato';
+  }
+
+  .top-card{
+    font-size: 30px;
+    line-height: 20px;
+    left: 2px;
+    top: 50px;
+    
+  }
+
+  .content-card {
+    text-align: center;
+    font-size: 70px;
+
+  }
+
+  .bottom-card{
+    font-size: 30px;
+    line-height: 20px;
+    right: 2px;
+    bottom: 2px;
+    transform: rotate(-180deg);
+  }
+
   .clubs,
   .spades {
     color: black;
@@ -11,3 +46,30 @@
   .diams {
     color: red;
   }
+
+.hearts .suit::after{
+  content: "\2665"
+}
+.diams .suit::after{
+  content: "\2666"
+}
+.spades .suit::after{
+  content: "\2660"
+}
+.clubs .suit::after{
+  content: "\2663"
+}
+
+#dealerHolder, #playerHolder{
+  height: 230px;
+  width: 500px;
+
+}
+
+br {
+  content: "";
+  margin: 7px;
+  display: block;
+  /* font-size: 20%; */
+  
+}
